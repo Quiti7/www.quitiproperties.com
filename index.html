@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Quiti Properties - Personal Shopper Inmobiliario en Madrid. Servicios end-to-end de compra, reforma y gestión.">
+    <title>Quiti Properties | Boutique Real Estate Shopper</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Icons (using FontAwesome CDN for simplicity) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo-link">
+                <!-- Using the requested logo image -->
+                <img src="assets/images/logonav.png" alt="Quiti Properties" class="nav-logo">
+            </a>
+
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link" data-i18n="nav_home">Inicio</a>
+
+                <div class="dropdown">
+                    <a href="#services" class="nav-link" data-i18n="nav_services">Servicios <i
+                            class="fas fa-chevron-down" style="font-size: 0.7em; margin-left: 5px;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="servicios-boutique.html">Servicios Boutique</a>
+                        <a href="servicios-inversores.html">Inversores / Extranjeros</a>
+                        <a href="gestion-alquileres.html">Gestión de Activos</a>
+                    </div>
+                </div>
+
+                <a href="#team" class="nav-link" data-i18n="nav_team">Equipo</a>
+                <a href="#contact" class="nav-link" data-i18n="nav_contact">Contacto</a>
+
+                <div class="lang-switch">
+                    <button class="lang-btn active" data-lang="es">ES</button>
+                    <span class="divider">|</span>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero parallax-section bg-hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-content" data-aos="fade-up" data-aos-duration="1500">
+            <!-- Logo could go here if requested, currently in navbar -->
+            <p class="hero-subheader" data-i18n="hero_subheadline"
+                style="font-size: 1.5rem; max-width: 900px; margin: 0 auto; line-height: 1.6; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">
+                The first property shopper that finds your home...
+            </p>
+            <div class="cta-group" style="margin-top: 3rem;">
+                <a href="#contact" class="btn btn-primary" data-i18n="hero_cta_primary">Contáctanos ahora</a>
+                <a href="#services" class="btn btn-secondary" data-i18n="hero_cta_secondary">Nuestros servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <h2 class="section-title" data-i18n="services_title" data-aos="fade-up">Servicios que ofrece Quiti
+                Properties</h2>
+
+            <div class="services-layout">
+                <!-- 1. Boutique Services (Full Width) -->
+                <div id="serv-boutique" class="service-card service-featured" data-aos="fade-up"
+                    onclick="window.location.href='servicios-boutique.html'" style="cursor: pointer;">
+                    <div class="featured-header">
+                        <div class="icon-box">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3 data-i18n="serv_boutique_title">Servicios Boutique</h3>
+                        <p class="service-subtitle" data-i18n="serv_boutique_subtitle">Experiencia integral y
+                            personalizada.</p>
+                    </div>
+
+                    <div class="featured-content">
+                        <ul class="service-details-grid">
+                            <li>
+                                <div class="li-icon"><i class="fas fa-check-circle"></i></div>
+                                <div>
+                                    <strong data-i18n="serv_boutique_p1_title">Entendimiento del cliente:</strong>
+                                    <span data-i18n="serv_boutique_p1_desc">Identificamos objetivos y necesidades
+                                        reales.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li-icon"><i class="fas fa-search"></i></div>
+                                <div>
+                                    <strong data-i18n="serv_boutique_p2_title">Búsqueda de vivienda:</strong>
+                                    <span data-i18n="serv_boutique_p2_desc">Selección ultra-curada del mercado y
+                                        off-market.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li-icon"><i class="fas fa-eye"></i></div>
+                                <div>
+                                    <strong data-i18n="serv_boutique_p3_title">Visitas eficientes:</strong>
+                                    <span data-i18n="serv_boutique_p3_desc">Visitas por vídeo o presenciales
+                                        optimizadas.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li-icon"><i class="fas fa-hand-holding-usd"></i></div>
+                                <div>
+                                    <strong data-i18n="serv_boutique_p4_title">Negociación + Due Diligence:</strong>
+                                    <span data-i18n="serv_boutique_p4_desc">Mejor precio y seguridad legal
+                                        absoluta.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li-icon"><i class="fas fa-university"></i></div>
+                                <div>
+                                    <strong data-i18n="serv_boutique_p5_title">Financiación:</strong>
+                                    <span data-i18n="serv_boutique_p5_desc">Acceso a condiciones preferentes
+                                        bancarias.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li-icon"><i class="fas fa-file-signature"></i></div>
+                                <div>
+                                    <strong data-i18n="serv_boutique_p6_title">Contratos y cierre:</strong>
+                                    <span data-i18n="serv_boutique_p6_desc">Soporte legal completo hasta la
+                                        firma.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li-icon"><i class="fas fa-tools"></i></div>
+                                <div>
+                                    <strong data-i18n="serv_boutique_p7_title">Reforma (opcional):</strong>
+                                    <span data-i18n="serv_boutique_p7_desc">Gestión con partners de primer nivel.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 2. Investors Services -->
+                <div id="serv-investors" class="service-card service-secondary" data-aos="fade-up" data-aos-delay="100"
+                    onclick="window.location.href='servicios-inversores.html'" style="cursor: pointer;">
+                    <div class="icon-box-small">
+                        <i class="fas fa-globe-europe"></i>
+                    </div>
+                    <h3 data-i18n="serv_investors_title">Inversores / Extranjeros</h3>
+                    <ul class="service-details-simple">
+                        <li>
+                            <i class="fas fa-balance-scale li-icon-simple"></i>
+                            <span data-i18n="serv_inv_p1">Optimización fiscal</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-university li-icon-simple"></i>
+                            <span data-i18n="serv_inv_p2">Cuentas bancarias en España</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-building li-icon-simple"></i>
+                            <span data-i18n="serv_inv_p3">Creación de sociedad</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-passport li-icon-simple"></i>
+                            <span data-i18n="serv_inv_p4">Golden Visa y Legal</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 3. Management Services -->
+                <div id="serv-management" class="service-card service-secondary" data-aos="fade-up" data-aos-delay="200"
+                    onclick="window.location.href='gestion-alquileres.html'" style="cursor: pointer;">
+                    <div class="icon-box-small">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3 data-i18n="serv_management_title">Gestión de Activos</h3>
+                    <ul class="service-details-simple">
+                        <li>
+                            <i class="fas fa-handshake li-icon-simple"></i>
+                            <span data-i18n="serv_man_p1">Sin conflictos de interés</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-tasks li-icon-simple"></i>
+                            <span data-i18n="serv_man_p2">Gestión integral del alquiler</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-user-tie li-icon-simple"></i>
+                            <span data-i18n="serv_man_p3">Selección inquilinos elite</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-chart-line li-icon-simple"></i>
+                            <span data-i18n="serv_man_p4">Rentabilidad maximizada</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section (Parallax) -->
+    <section id="team" class="team-parallax parallax-section bg-team">
+        <div class="bg-overlay-dark"></div>
+        <div class="container team-content-box" data-aos="zoom-in" data-aos-duration="1000">
+            <h2 class="section-title" data-i18n="team_title" style="margin-bottom: 2rem;">El Equipo</h2>
+            <p class="team-desc-p" data-i18n="team_desc_1">Intro paragraph 1...</p>
+            <p class="team-desc-p" data-i18n="team_desc_2">Intro paragraph 2...</p>
+            <p class="team-desc-p" data-i18n="team_desc_3">Intro paragraph 3...</p>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us parallax-section bg-why section-padding">
+        <div class="bg-overlay-dark"></div>
+        <div class="container" style="position: relative; z-index: 2;">
+            <h2 class="section-title" data-i18n="why_title" style="color: white;">¿Por qué elegirnos?</h2>
+            <div class="why-grid">
+                <div class="why-item">
+                    <i class="fas fa-star" style="color: var(--color-accent);"></i>
+                    <p data-i18n="why_1" style="color: white;">Atención boutique...</p>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-map-marked-alt" style="color: var(--color-accent);"></i>
+                    <p data-i18n="why_2" style="color: white;">Conocimiento profundo...</p>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-handshake" style="color: var(--color-accent);"></i>
+                    <p data-i18n="why_3" style="color: white;">Negociación y cierre...</p>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-balance-scale" style="color: var(--color-accent);"></i>
+                    <p data-i18n="why_4" style="color: white;">Servicios legales...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container" data-aos="fade-up">
+            <div class="contact-wrapper">
+                <!-- Left Side: Brand & Info -->
+                <div class="contact-brand-col">
+                    <img src="assets/images/logo.png" alt="Quiti Properties" class="contact-logo">
+                    <h3 class="contact-headline">Hablemos de tu futuro hogar</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+34 662 170 240</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@quitiproperties.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Madrid, España</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Form -->
+                <div class="contact-form-col">
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact_name_label">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact_email_label">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-i18n="contact_phone_label">Teléfono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact_message_label">Mensaje</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" data-i18n="contact_submit">Enviar
+                            Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="legal-footer">
+            <small data-i18n="legal_text">© 2025 Quiti Properties. Todos los derechos reservados. Política de
+                Privacidad.</small>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

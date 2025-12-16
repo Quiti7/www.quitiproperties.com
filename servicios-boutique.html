@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Servicios Boutique Inmobiliarios de Quiti Properties. Búsqueda, negociación, legal y reforma.">
+    <title>Servicios Boutique | Quiti Properties</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        .service-content-section {
+            padding: 80px 0;
+            background-color: var(--color-bg-light);
+        }
+
+        .service-intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* Feature Grid */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .feature-item {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            border-top: 3px solid transparent;
+        }
+
+        .feature-item:hover {
+            transform: translateY(-8px);
+            border-top-color: var(--color-accent);
+        }
+
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--color-accent);
+            margin-bottom: 1.5rem;
+            display: inline-block;
+        }
+
+        .feature-item h3 {
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            color: var(--color-primary);
+        }
+
+        .feature-desc {
+            color: #666;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        /* Highlight box for Reforma */
+        .highlight-feature {
+            grid-column: 1 / -1;
+            background-color: var(--color-primary);
+            color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .highlight-feature h3 {
+            color: var(--color-white);
+            font-size: 1.8rem;
+        }
+
+        .highlight-feature .feature-desc {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.05rem;
+        }
+
+        .highlight-feature .feature-icon {
+            color: var(--color-accent);
+            font-size: 3rem;
+        }
+
+        .sub-list {
+            list-style: none;
+            margin-top: 1.5rem;
+            padding: 0;
+        }
+
+        .sub-list li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 0.8rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .sub-list li::before {
+            content: "•";
+            color: var(--color-accent);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .highlight-feature {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo-link">
+                <img src="assets/images/logonav.png" alt="Quiti Properties" class="nav-logo">
+            </a>
+
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Inicio</a>
+
+                <div class="dropdown">
+                    <a href="index.html#services" class="nav-link" style="color: var(--color-secondary);">Servicios <i
+                            class="fas fa-chevron-down" style="font-size: 0.7em; margin-left: 5px;"></i></a>
+                    <div class="dropdown-content">
+                        <a href="servicios-boutique.html"
+                            style="background-color: var(--color-bg-light); color: var(--color-secondary);">Servicios
+                            Boutique</a>
+                        <a href="servicios-inversores.html">Inversores / Extranjeros</a>
+                        <a href="gestion-alquileres.html">Gestión de Activos</a>
+                    </div>
+                </div>
+
+                <a href="index.html#team" class="nav-link">Equipo</a>
+                <a href="index.html#contact" class="nav-link">Contacto</a>
+
+                <div class="lang-switch">
+                    <button class="lang-btn active" data-lang="es">ES</button>
+                    <span class="divider">|</span>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Specific Hero Section -->
+    <section class="hero" style="background-image: url('assets/images/salon4.png'); height: 60vh; min-height: 500px;">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-content" data-aos="fade-up">
+            <h1 style="margin-bottom: 1rem;">Servicios Boutique</h1>
+            <p style="font-size: 1.3rem; max-width: 700px; margin: 0 auto 2rem; color: #eee;">
+                Experiencia integral y personalizada para encontrar tu hogar ideal.
+            </p>
+            <div class="cta-group">
+                <a href="#details" class="btn btn-secondary">Descubre más</a>
+                <a href="#contact" class="btn btn-primary">Solicitar Información</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section id="details" class="service-content-section">
+        <div class="container">
+
+            <p class="service-intro" data-aos="fade-up">
+                Identificamos rápido tus objetivos, presupuesto y preferencias para ajustar todo el proceso a ti.
+                Nuestro enfoque end-to-end garantiza que disfrutes del camino de encontrar tu nueva casa, sin estrés y
+                con total seguridad.
+            </p>
+
+            <div class="feature-grid">
+                <!-- 1. Entendimiento -->
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="0">
+                    <i class="fas fa-check-circle feature-icon"></i>
+                    <h3>Entendimiento del cliente</h3>
+                    <p class="feature-desc">No se trata solo de buscar casas, sino de entender cómo quieres vivir.
+                        Identificamos rápido tus objetivos, presupuesto y preferencias para ajustar todo el proceso a ti
+                        desde el primer minuto.</p>
+                </div>
+
+                <!-- 2. Búsqueda -->
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-search feature-icon"></i>
+                    <h3>Búsqueda de vivienda</h3>
+                    <p class="feature-desc">Te enviamos una selección ultra-curada. Nuestra experiencia, red de agencias
+                        y tecnología nos permite encontrar las mejores opciones, tanto on-market como off-market.</p>
+                </div>
+
+                <!-- 3. Visitas -->
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-eye feature-icon"></i>
+                    <h3>Visitas eficientes</h3>
+                    <p class="feature-desc">Hacemos las visitas por ti y te las mostramos por vídeo detallado; o si lo
+                        prefieres, te acompañamos en persona. Simplificamos la logística para que el proceso sea cómodo
+                        y rápido.</p>
+                </div>
+
+                <!-- 4. Negociación -->
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="0">
+                    <i class="fas fa-hand-holding-usd feature-icon"></i>
+                    <h3>Negociación + Due Diligence</h3>
+                    <p class="feature-desc">Negociamos el mejor precio y condiciones posibles, apoyados por una due
+                        diligence completa. Conocemos cada barrio y tenemos datos precisos de cierre.</p>
+                </div>
+
+                <!-- 5. Financiación -->
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-university feature-icon"></i>
+                    <h3>Financiación</h3>
+                    <p class="feature-desc">Te conectamos con bancos colaboradores y brokers de confianza para conseguir
+                        la hipoteca que mejor encaje contigo y en las mejores condiciones del mercado actual.</p>
+                </div>
+
+                <!-- 6. Contratos -->
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-file-signature feature-icon"></i>
+                    <h3>Contratos y cierre</h3>
+                    <p class="feature-desc">Nuestros abogados revisan y negocian toda la documentación legal, asegurando
+                        una transacción segura. Te acompañamos en todo momento hasta la firma final ante notario.</p>
+                </div>
+
+                <!-- 7. Reforma (Full Width Highlight) -->
+                <div class="feature-item highlight-feature" data-aos="fade-up">
+                    <div>
+                        <i class="fas fa-tools feature-icon"></i>
+                        <h3>Reforma (opcional)</h3>
+                    </div>
+                    <div>
+                        <p class="feature-desc">Si la vivienda necesita cambios, te gestionamos la reforma con partners
+                            de primer nivel para entregarte la casa lista para entrar a vivir.</p>
+                        <ul class="sub-list">
+                            <li>Gestión de la Declaración Responsable</li>
+                            <li>Estudio de arquitectura de prestigio</li>
+                            <li>Constructora con presupuestos probados</li>
+                            <li>Estudio de interiorismo y decoración</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Team Section (Reused) -->
+    <section id="team" class="team-parallax parallax-section bg-team">
+        <div class="bg-overlay-dark"></div>
+        <div class="container team-content-box" data-aos="zoom-in" data-aos-duration="1000">
+            <h2 class="section-title" data-i18n="team_title" style="margin-bottom: 2rem;">El Equipo</h2>
+            <p class="team-desc-p" data-i18n="team_desc_1">Intro paragraph 1...</p>
+            <p class="team-desc-p" data-i18n="team_desc_2">Intro paragraph 2...</p>
+            <p class="team-desc-p" data-i18n="team_desc_3">Intro paragraph 3...</p>
+        </div>
+    </section>
+
+    <!-- Why Choose Us (Optional but good for reinforcement) -->
+
+    <!-- Contact Section (Reused) -->
+    <section id="contact" class="contact section-padding">
+        <div class="container" data-aos="fade-up">
+            <div class="contact-wrapper">
+                <!-- Left Side: Brand & Info -->
+                <div class="contact-brand-col">
+                    <img src="assets/images/logo.png" alt="Quiti Properties" class="contact-logo">
+                    <h3 class="contact-headline">Hablemos de tu futuro hogar</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+34 662 170 240</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@quitiproperties.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Madrid, España</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Form -->
+                <div class="contact-form-col">
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact_name_label">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact_email_label">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-i18n="contact_phone_label">Teléfono</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact_message_label">Mensaje</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" data-i18n="contact_submit">Enviar
+                            Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="legal-footer">
+            <small data-i18n="legal_text">© 2025 Quiti Properties. Todos los derechos reservados.</small>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+
+    <!-- Mobile Menu Fix for this separate page -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggle = document.getElementById('navToggle');
+            const menu = document.getElementById('navMenu');
+
+            if (toggle && menu) {
+                toggle.addEventListener('click', () => {
+                    menu.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
