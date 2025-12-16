@@ -212,7 +212,7 @@
         </div>
     </section>
 
-    <!-- Team Section (Reused) -->
+    <!-- Team Section (Parallax) -->
     <section id="team" class="team-parallax parallax-section bg-team">
         <div class="bg-overlay-dark"></div>
         <div class="container team-content-box" data-aos="zoom-in" data-aos-duration="1000">
@@ -220,10 +220,31 @@
             <p class="team-desc-p" data-i18n="team_desc_1">Intro paragraph 1...</p>
             <p class="team-desc-p" data-i18n="team_desc_2">Intro paragraph 2...</p>
             <p class="team-desc-p" data-i18n="team_desc_3">Intro paragraph 3...</p>
+
+            <div class="team-roles-grid">
+                <div class="team-role-item">
+                    <p data-i18n="team_role_1">Director General</p>
+                </div>
+                <div class="team-role-item">
+                    <p data-i18n="team_role_2">Responsable búsqueda vivienda</p>
+                </div>
+                <div class="team-role-item">
+                    <p data-i18n="team_role_3">Abogado jurídico</p>
+                </div>
+                <div class="team-role-item">
+                    <p data-i18n="team_role_4">Abogado fiscalista</p>
+                </div>
+                <div class="team-role-item">
+                    <p data-i18n="team_role_5">Estudio de arquitectura e interiorismo</p>
+                </div>
+                <div class="team-role-item">
+                    <p data-i18n="team_role_6">Constructora</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Contact Section (Reused) -->
+    <!-- Contact Section -->
     <section id="contact" class="contact section-padding">
         <div class="container" data-aos="fade-up">
             <div class="contact-wrapper">
@@ -242,14 +263,20 @@
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Madrid, España</span>
+                            <span>Núñez de Balboa 47. Madrid, España</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Right Side: Form -->
                 <div class="contact-form-col">
-                    <form class="contact-form" action="#" method="POST">
+                    <form class="contact-form" action="https://formsubmit.co/jvalenzuela.chulia@gmail.com"
+                        method="POST">
+                        <input type="hidden" name="_subject" value="Nuevo contacto desde Quiti Properties">
+                        <input type="hidden" name="_captcha" value="true">
+                        <!-- Redirect to same page after submit (optional but recommended for UX) -->
+                        <input type="hidden" name="_next" value="https://quitiproperties.com/index.html">
+
                         <div class="form-group">
                             <label for="name" data-i18n="contact_name_label">Nombre</label>
                             <input type="text" id="name" name="name" required>
@@ -273,7 +300,8 @@
             </div>
         </div>
         <div class="legal-footer">
-            <small data-i18n="legal_text">© 2025 Quiti Properties. Todos los derechos reservados.</small>
+            <small data-i18n="legal_text">© 2025 Quiti Properties. Todos los derechos reservados. Política de
+                Privacidad.</small>
         </div>
     </section>
 

@@ -13,8 +13,8 @@
     --color-white: #FFFFFF;
 
     /* Fonts */
-    --font-heading: 'Montserrat', sans-serif;
-    --font-body: 'Open Sans', sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Lato', sans-serif;
 
     /* Spacing */
     --spacing-sm: 1rem;
@@ -176,7 +176,7 @@ ul {
 
 /* Navigation Styles */
 .nav-link {
-    font-weight: 600;
+    font-weight: 400;
     color: var(--color-white);
     /* Default white on hero */
     font-size: 1.15rem;
