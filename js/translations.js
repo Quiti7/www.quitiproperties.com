@@ -126,7 +126,7 @@ const translations = {
 
         team_title: "The Team / About Us",
         team_subtitle: "Experts united by passion for real estate and design.",
-        team_desc_1: "Quiti Properties was born from the passion to help people, families, and investors find their ideal home. Tired of the sector's opacity, we are much more than a personal shopper: we are your travel companion, with a boutique service designed to make buying your home a unique and memorable experience.",
+        team_desc_1: "Quiti Properties was born from the passion to help people, families, and investors find their ideal home. Tired of the sector's opacity, we are much more than a personal shopper: somos tu compañero de viaje, con un servicio boutique pensado para que la compra de tu vivienda sea una experiencia única y memorable.",
         team_desc_2: "Our real estate experience in Madrid allows us to offer a totally transparent end-to-end service, designed so that every step —buying, renovating, renting, managing your assets, or accompanying you in any legal and tax need— is fluid and frictionless.",
         team_desc_3: "We have a proactive team, with local knowledge and global vision, that understands the needs of national and international clients and turns every project into something truly special.",
 

@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
         rel="stylesheet">
 
     <!-- Styles -->
@@ -29,7 +29,7 @@
         <div class="container nav-container">
             <a href="#" class="logo-link">
                 <!-- Using the requested logo image -->
-                <img src="assets/images/logonav.png" alt="Quiti Properties" class="nav-logo">
+                <img src="assets/images/logoblanco.png" alt="Quiti Properties" class="nav-logo">
             </a>
 
             <div class="nav-toggle" id="navToggle">
@@ -88,9 +88,9 @@
                 <div id="serv-boutique" class="service-card service-featured" data-aos="fade-up"
                     onclick="window.location.href='servicios-boutique.html'" style="cursor: pointer;">
                     <div class="featured-header">
-                        <div class="icon-box">
+                        <!-- <div class="icon-box">
                             <i class="fas fa-gem"></i>
-                        </div>
+                        </div> -->
                         <h3 data-i18n="serv_boutique_title">Servicios Boutique</h3>
                         <p class="service-subtitle" data-i18n="serv_boutique_subtitle">Experiencia integral y
                             personalizada.</p>
@@ -130,6 +130,15 @@
                                         absoluta.</span>
                                 </div>
                             </li>
+                            <!-- New Service: Tasación -->
+                            <li>
+                                <div class="li-icon"><i class="fas fa-chart-bar"></i></div>
+                                <div>
+                                    <strong data-i18n="serv_boutique_tasacion_title">Tasación:</strong>
+                                    <span data-i18n="serv_boutique_tasacion_desc">Maximizar resultado para
+                                        financiación.</span>
+                                </div>
+                            </li>
                             <li>
                                 <div class="li-icon"><i class="fas fa-university"></i></div>
                                 <div>
@@ -147,9 +156,10 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="li-icon"><i class="fas fa-tools"></i></div>
+                                <div class="li-icon"><i class="fas fa-drafting-compass"></i></div>
                                 <div>
-                                    <strong data-i18n="serv_boutique_p7_title">Reforma (opcional):</strong>
+                                    <strong data-i18n="serv_boutique_p7_title">Estudio de arquitectura e interiorismo
+                                        (opcional):</strong>
                                     <span data-i18n="serv_boutique_p7_desc">Gestión con partners de primer nivel.</span>
                                 </div>
                             </li>
@@ -160,9 +170,9 @@
                 <!-- 2. Investors Services -->
                 <div id="serv-investors" class="service-card service-secondary" data-aos="fade-up" data-aos-delay="100"
                     onclick="window.location.href='servicios-inversores.html'" style="cursor: pointer;">
-                    <div class="icon-box-small">
+                    <!-- <div class="icon-box-small">
                         <i class="fas fa-globe-europe"></i>
-                    </div>
+                    </div> -->
                     <h3 data-i18n="serv_investors_title">Inversores / Extranjeros</h3>
                     <ul class="service-details-simple">
                         <li>
@@ -187,9 +197,9 @@
                 <!-- 3. Management Services -->
                 <div id="serv-management" class="service-card service-secondary" data-aos="fade-up" data-aos-delay="200"
                     onclick="window.location.href='gestion-alquileres.html'" style="cursor: pointer;">
-                    <div class="icon-box-small">
+                    <!-- <div class="icon-box-small">
                         <i class="fas fa-key"></i>
-                    </div>
+                    </div> -->
                     <h3 data-i18n="serv_management_title">Gestión de Activos</h3>
                     <ul class="service-details-simple">
                         <li>
@@ -222,6 +232,27 @@
             <p class="team-desc-p" data-i18n="team_desc_1">Intro paragraph 1...</p>
             <p class="team-desc-p" data-i18n="team_desc_2">Intro paragraph 2...</p>
             <p class="team-desc-p" data-i18n="team_desc_3">Intro paragraph 3...</p>
+
+            <div class="team-roles-grid">
+                <div class="team-role-item">
+                    <p data-i18n="team_role_1">Director General</p>
+                </div>
+                <div class="team-role-item">
+                    <p data-i18n="team_role_2">Responsable búsqueda vivienda</p>
+                </div>
+                <div class="team-role-item">
+                    <p data-i18n="team_role_3">Abogado jurídico</p>
+                </div>
+                <div class="team-role-item">
+                    <p data-i18n="team_role_4">Abogado fiscalista</p>
+                </div>
+                <div class="team-role-item">
+                    <p data-i18n="team_role_5">Estudio de arquitectura e interiorismo</p>
+                </div>
+                <div class="team-role-item">
+                    <p data-i18n="team_role_6">Constructora</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -232,22 +263,22 @@
             <h2 class="section-title" data-i18n="why_title" style="color: white;">¿Por qué elegirnos?</h2>
             <div class="why-grid">
                 <div class="why-item">
-                    <i class="fas fa-star" style="color: var(--color-accent);"></i>
-                    <p data-i18n="why_1" style="color: white;">Atención boutique...</p>
+                    <p data-i18n="why_1" style="color: white;">Servicio boutique con atención personalizada. Trabajamos
+                        por y para ti</p>
                 </div>
                 <div class="why-item">
-                    <i class="fas fa-map-marked-alt" style="color: var(--color-accent);"></i>
-                    <p data-i18n="why_2" style="color: white;">Conocimiento profundo...</p>
+                    <p data-i18n="why_2" style="color: white;">Conocimiento profundo de todos los barrios de Madrid</p>
                 </div>
                 <div class="why-item">
-                    <i class="fas fa-handshake" style="color: var(--color-accent);"></i>
-                    <p data-i18n="why_3" style="color: white;">Negociación y cierre...</p>
-                </div>
-                <div class="why-item">
-                    <i class="fas fa-balance-scale" style="color: var(--color-accent);"></i>
-                    <p data-i18n="why_4" style="color: white;">Servicios legales...</p>
+                    <p data-i18n="why_3" style="color: white;">Equipo multidisciplinar para cubrir todas las necesidades
+                        de nuestros clientes</p>
                 </div>
             </div>
+            <p class="why-summary">
+                En Quiti Properties te acompañamos de principio a fin: desde la búsqueda de la vivienda hasta la reforma
+                integral con nuestros estudios de arquitectura partners y la entrega de llaves. Un proceso sencillo, de
+                máxima calidad y totalmente alineado con las necesidades de cada cliente
+            </p>
         </div>
     </section>
 
@@ -270,14 +301,20 @@
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Madrid, España</span>
+                            <span>Núñez de Balboa 47. Madrid, España</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Right Side: Form -->
                 <div class="contact-form-col">
-                    <form class="contact-form" action="#" method="POST">
+                    <form class="contact-form" action="https://formsubmit.co/jvalenzuela.chulia@gmail.com"
+                        method="POST">
+                        <input type="hidden" name="_subject" value="Nuevo contacto desde Quiti Properties">
+                        <input type="hidden" name="_captcha" value="true">
+                        <!-- Redirect to same page after submit (optional but recommended for UX) -->
+                        <input type="hidden" name="_next" value="https://quitiproperties.com/index.html">
+
                         <div class="form-group">
                             <label for="name" data-i18n="contact_name_label">Nombre</label>
                             <input type="text" id="name" name="name" required>
