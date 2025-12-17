@@ -142,22 +142,24 @@
             </div>
 
             <div class="nav-menu" id="navMenu">
-                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="index.html" class="nav-link" data-i18n="nav_home">Inicio</a>
 
                 <div class="dropdown">
-                    <a href="index.html#services" class="nav-link" style="color: var(--color-secondary);">Servicios <i
-                            class="fas fa-chevron-down" style="font-size: 0.7em; margin-left: 5px;"></i></a>
+                    <a href="index.html#services" class="nav-link" style="color: var(--color-secondary);"><span
+                            data-i18n="nav_services">Servicios</span> <i class="fas fa-chevron-down"
+                            style="font-size: 0.7em; margin-left: 5px;"></i></a>
                     <div class="dropdown-content">
-                        <a href="servicios-boutique.html">Servicios Boutique</a>
-                        <a href="servicios-inversores.html">Inversores / Extranjeros</a>
+                        <a href="servicios-boutique.html" data-i18n="nav_serv_boutique">Servicios Boutique</a>
+                        <a href="servicios-inversores.html" data-i18n="nav_serv_investors">Inversores / Extranjeros</a>
                         <a href="gestion-alquileres.html"
-                            style="background-color: var(--color-bg-light); color: var(--color-secondary);">Gestión de
+                            style="background-color: var(--color-bg-light); color: var(--color-secondary);"
+                            data-i18n="nav_serv_management">Gestión de
                             Activos</a>
                     </div>
                 </div>
 
-                <a href="index.html#team" class="nav-link">Equipo</a>
-                <a href="index.html#contact" class="nav-link">Contacto</a>
+                <a href="index.html#team" class="nav-link" data-i18n="nav_team">Equipo</a>
+                <a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Contacto</a>
 
                 <div class="lang-switch">
                     <button class="lang-btn active" data-lang="es">ES</button>
@@ -172,13 +174,15 @@
     <section class="hero hero-inner" style="background-image: url('assets/images/madrid.webp');">
         <div class="hero-bg-overlay"></div>
         <div class="container hero-content" data-aos="fade-up">
-            <h1 style="margin-bottom: 1rem;">Gestión de Alquileres</h1>
-            <p style="font-size: 1.3rem; max-width: 700px; margin: 0 auto 2rem; color: #eee;">
+            <h1 style="margin-bottom: 1rem;" data-i18n="management_hero_title">Gestión de Alquileres</h1>
+            <p style="font-size: 1.3rem; max-width: 700px; margin: 0 auto 2rem; color: #eee;"
+                data-i18n="management_hero_subtitle">
                 Asset Management integral para tu tranquilidad y rentabilidad.
             </p>
             <div class="cta-group">
-                <a href="#details" class="btn btn-secondary">Cómo funciona</a>
-                <a href="#contact" class="btn btn-primary">Empieza a rentabilizar</a>
+                <a href="#details" class="btn btn-secondary" data-i18n="management_hero_cta_how">Cómo funciona</a>
+                <a href="#contact" class="btn btn-primary" data-i18n="management_hero_cta_start">Empieza a
+                    rentabilizar</a>
             </div>
         </div>
     </section>
@@ -187,7 +191,7 @@
     <section id="details" class="service-content-section">
         <div class="container">
 
-            <p class="service-intro" data-aos="fade-up">
+            <p class="service-intro" data-aos="fade-up" data-i18n="management_intro">
                 Nos encargamos de todo para que tu inversión sea verdaderamente pasiva. Desde la selección del inquilino
                 hasta el mantenimiento diario, gestionamos tu activo como si fuera nuestro.
             </p>
@@ -196,8 +200,9 @@
                 <!-- 1. Sin conflictos -->
                 <div class="feature-item" data-aos="fade-up">
                     <div class="feature-icon"><i class="fas fa-handshake"></i></div>
-                    <h3>Sin conflictos de interés</h3>
-                    <p class="feature-desc">Solo trabajamos para ti, el propietario. A diferencia de otras agencias,
+                    <h3 data-i18n="management_f1_title">Sin conflictos de interés</h3>
+                    <p class="feature-desc" data-i18n="management_f1_desc">Solo trabajamos para ti, el propietario. A
+                        diferencia de otras agencias,
                         nuestros intereses están 100% alineados con los tuyos para maximizar el valor de tu activo a
                         largo plazo, no una comisión rápida.</p>
                 </div>
@@ -205,8 +210,9 @@
                 <!-- 2. Gestión Integral -->
                 <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
                     <div class="feature-icon"><i class="fas fa-tasks"></i></div>
-                    <h3>Gestión integral y transparente</h3>
-                    <p class="feature-desc">Nos ocupamos de los cobros, reparaciones, incidencias y relación diaria con
+                    <h3 data-i18n="management_f2_title">Gestión integral y transparente</h3>
+                    <p class="feature-desc" data-i18n="management_f2_desc">Nos ocupamos de los cobros, reparaciones,
+                        incidencias y relación diaria con
                         el inquilino. Tú mantienes visibilidad total a través de informes transparentes, pero sin los
                         dolores de cabeza de la gestión.</p>
                 </div>
@@ -214,8 +220,9 @@
                 <!-- 3. Selección Inquilinos -->
                 <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
                     <div class="feature-icon"><i class="fas fa-user-tie"></i></div>
-                    <h3>Seleccionamos inquilinos de alta calidad</h3>
-                    <p class="feature-desc">Realizamos un filtrado exhaustivo (scoring financiero, referencias) para
+                    <h3 data-i18n="management_f3_title">Seleccionamos inquilinos de alta calidad</h3>
+                    <p class="feature-desc" data-i18n="management_f3_desc">Realizamos un filtrado exhaustivo (scoring
+                        financiero, referencias) para
                         encontrar inquilinos solventes y fiables. Tu tranquilidad y el cuidado de tu inmueble dependen
                         de quién vive en tu casa.</p>
                 </div>
@@ -223,8 +230,9 @@
                 <!-- 4. Rentabilidad (Added point to match grid) -->
                 <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
                     <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3>Rentabilidad Maximizada</h3>
-                    <p class="feature-desc">Revisamos periódicamente las rentas conforme al mercado y optimizamos los
+                    <h3 data-i18n="management_f4_title">Rentabilidad Maximizada</h3>
+                    <p class="feature-desc" data-i18n="management_f4_desc">Revisamos periódicamente las rentas conforme
+                        al mercado y optimizamos los
                         costes operativos para asegurar que estás obteniendo el máximo retorno posible de tu inversión
                         en todo momento.</p>
                 </div>
@@ -232,10 +240,11 @@
                 <!-- Highlight Box: Fees -->
                 <div class="highlight-box" data-aos="zoom-in">
                     <i class="fas fa-percent highlight-icon"></i>
-                    <h3>Sin mes de agencia</h3>
-                    <p>Solo cobramos un % mensual fijo, que incluye la gestión completa del alquiler así como la gestión
+                    <h3 data-i18n="management_highlight_title">Sin mes de agencia</h3>
+                    <p data-i18n="management_highlight_desc">Solo cobramos un % mensual fijo, que incluye la gestión
+                        completa del alquiler así como la gestión
                         de las posibles incidencias. Sin sorpresas ni costes ocultos.</p>
-                    <a href="#contact" class="btn btn-primary"
+                    <a href="#contact" class="btn btn-primary" data-i18n="management_highlight_cta"
                         style="background-color: var(--color-accent); border-color: var(--color-accent); color: var(--color-primary);">Contactar
                         Ahora</a>
                 </div>
@@ -283,7 +292,7 @@
                 <!-- Left Side: Brand & Info -->
                 <div class="contact-brand-col">
                     <img src="assets/images/logo.png" alt="Quiti Properties" class="contact-logo">
-                    <h3 class="contact-headline">Hablemos de tu futuro hogar</h3>
+                    <h3 class="contact-headline" data-i18n="contact_headline">Hablemos de tu futuro hogar</h3>
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-phone-alt"></i>
@@ -295,7 +304,7 @@
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Núñez de Balboa 47. Madrid, España</span>
+                            <span data-i18n="contact_address">Núñez de Balboa 47. Madrid, España</span>
                         </div>
                     </div>
                 </div>
@@ -310,19 +319,22 @@
 
                         <div class="form-group">
                             <label for="name" data-i18n="contact_name_label">Nombre</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" data-i18n-placeholder="contact_name_placeholder"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="email" data-i18n="contact_email_label">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email"
+                                data-i18n-placeholder="contact_email_placeholder" required>
                         </div>
                         <div class="form-group">
                             <label for="phone" data-i18n="contact_phone_label">Teléfono</label>
-                            <input type="tel" id="phone" name="phone">
+                            <input type="tel" id="phone" name="phone" data-i18n-placeholder="contact_phone_placeholder">
                         </div>
                         <div class="form-group">
                             <label for="message" data-i18n="contact_message_label">Mensaje</label>
-                            <textarea id="message" name="message" rows="4"></textarea>
+                            <textarea id="message" name="message" data-i18n-placeholder="contact_message_placeholder"
+                                rows="4"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block" data-i18n="contact_submit">Enviar
                             Mensaje</button>

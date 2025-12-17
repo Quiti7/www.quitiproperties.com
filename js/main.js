@@ -11,6 +11,46 @@ const translations = {
         nav_serv_investors: "Para Inversores",
         nav_serv_management: "Gestión de Activos",
 
+        // Boutique Sub-page
+        boutique_hero_title: "Servicios Boutique",
+        boutique_hero_subtitle: "Experiencia integral y personalizada para encontrar tu hogar ideal.",
+        boutique_hero_cta_more: "Descubre más",
+        boutique_hero_cta_info: "Solicitar Información",
+        boutique_intro: "Nuestros servicios boutique están diseñados para acompañarte en cada paso de la compra de tu vivienda en Madrid. Ofrecemos un asesoramiento 360º que va más allá de la simple intermediación.",
+
+        // Investors Sub-page
+        investors_hero_title: "Inversores y Extranjeros",
+        investors_hero_subtitle: "Soluciones integrales para optimizar tu inversión y aterrizaje en España.",
+        investors_hero_cta_view: "Ver Servicios",
+        investors_hero_cta_contact: "Contáctanos",
+        investors_intro: "Facilitamos tu llegada e inversión en Madrid. Nos encargamos de todos los trámites burocráticos y legales para que tú solo te preocupes de disfrutar de tu inversión, con la seguridad de estar en manos expertas.",
+        investors_f1_title: "Optimización Fiscal",
+        investors_f1_desc: "Analizamos tu situación personal y patrimonial para optimizar la estructuración fiscal de tu inversión inmobiliaria en España. Diseñamos la estrategia más eficiente para asegurar el cumplimiento normativo y maximizar tu rentabilidad neta.",
+        investors_f2_title: "Apertura de Cuenta Bancaria",
+        investors_f2_desc: "Te ayudamos a abrir tu cuenta bancaria en España de forma ágil, conectándote con entidades de primer nivel que entienden las necesidades de inversores internacionales, facilitando la operativa de compra y gestión posterior.",
+        investors_f3_title: "Creación de Sociedad",
+        investors_f3_desc: "Si tu perfil de inversión lo requiere, gestionamos la constitución de tu sociedad en España (SL, patrimonial, etc.) encargándonos de todos los trámites registrales, notariales y fiscales para que puedas operar desde el primer día.",
+        investors_f4_title: "Apoyo Legal y Golden Visa",
+        investors_f4_desc: "Brindamos soporte jurídico integral durante tu estancia o proceso de inversión. Ofrecemos asesoramiento completo para la obtención de la Golden Visa si eres elegible, gestionando todo el expediente administrativo.",
+
+        // Management Sub-page
+        management_hero_title: "Gestión de Alquileres",
+        management_hero_subtitle: "Asset Management integral para tu tranquilidad y rentabilidad.",
+        management_hero_cta_how: "Cómo funciona",
+        management_hero_cta_start: "Empieza a rentabilizar",
+        management_intro: "Nos encargamos de todo para que tu inversión sea verdaderamente pasiva. Desde la selección del inquilino hasta el mantenimiento diario, gestionamos tu activo como si fuera nuestro.",
+        management_f1_title: "Sin conflictos de interés",
+        management_f1_desc: "Solo trabajamos para ti, el propietario. A diferencia de otras agencias, nuestros intereses están 100% alineados con los tuyos para maximizar el valor de tu activo a largo plazo, no una comisión rápida.",
+        management_f2_title: "Gestión integral y transparente",
+        management_f2_desc: "Nos ocupamos de los cobros, reparaciones, incidencias y relación diaria con el inquilino. Tú mantienes visibilidad total a través de informes transparentes, pero sin los dolores de cabeza de la gestión.",
+        management_f3_title: "Seleccionamos inquilinos de alta calidad",
+        management_f3_desc: "Realizamos un filtrado exhaustivo (scoring financiero, referencias) para encontrar inquilinos solventes y fiables. Tu tranquilidad y el cuidado de tu inmueble dependen de quién vive en tu casa.",
+        management_f4_title: "Rentabilidad Maximizada",
+        management_f4_desc: "Revisamos periódicamente las rentas conforme al mercado y optimizamos los costes operativos para asegurar que estás obteniendo el máximo retorno posible de tu inversión en todo momento.",
+        management_highlight_title: "Sin mes de agencia",
+        management_highlight_desc: "Solo cobramos un % mensual fijo, que incluye la gestión completa del alquiler así como la gestión de las posibles incidencias. Sin sorpresas ni costes ocultos.",
+        management_highlight_cta: "Contactar Ahora",
+
         hero_headline: "",
         hero_subheadline: "El primer property shopper que encuentra tu hogar y lo transforma contigo, de principio a fin: selección del activo, arquitectura de primer nivel, reforma y diseño integral, y un acompañamiento legal y estratégico que asegura siempre las mejores condiciones",
         hero_subheadline_mobile: "El primer property shopper que encuentra tu hogar y lo transforma contigo, de principio a fin: selección del activo, arquitectura de primer nivel, reforma y diseño integral",
@@ -57,6 +97,7 @@ const translations = {
         why_2: "Conocimiento profundo de barrios en Madrid",
         why_3: "Equipo multidisciplinar para cubrir todas las necesidades de nuestros clientes",
         why_4: "Servicios legales integrales",
+        why_summary: "En Quiti Properties te acompañamos de principio a fin: desde la búsqueda de la vivienda hasta la reforma integral con nuestros estudios de arquitectura partners y la entrega de llaves. Un proceso sencillo, de máxima calidad y totalmente alineado con las necesidades de cada cliente.",
 
         team_title: "Sobre nosotros",
         team_subtitle: "Expertos unidos por la pasión inmobiliaria y el diseño.",
@@ -71,11 +112,17 @@ const translations = {
         team_desc_3: "Contamos con un equipo proactivo, con conocimiento local y visión global, que entiende las necesidades de clientes nacionales e internacionales y convierte cada proyecto en algo verdaderamente especial.",
 
         contact_title: "Contáctanos",
-        contact_name_placeholder: "Nombre",
-        contact_email_placeholder: "Email",
-        contact_phone_placeholder: "Teléfono",
-        contact_message_placeholder: "Mensaje",
+        contact_name_label: "Nombre",
+        contact_name_placeholder: "Tu nombre completo",
+        contact_email_label: "Email",
+        contact_email_placeholder: "tu@email.com",
+        contact_phone_label: "Teléfono",
+        contact_phone_placeholder: "+34 ...",
+        contact_message_label: "Mensaje",
+        contact_message_placeholder: "¿En qué podemos ayudarte?",
         contact_submit: "Envíame esta información",
+        contact_headline: "Hablemos de tu futuro hogar",
+        contact_address: "Núñez de Balboa 47. Madrid, España",
 
         legal_text: "© 2025 Quiti Properties. Todos los derechos reservados. Política de Privacidad."
     },
@@ -98,8 +145,9 @@ const translations = {
 
         services_title: "Services offered by Quiti Properties",
 
-        // Boutique Services
+        // Boutique Services (Home page cards)
         serv_boutique_title: "Boutique Services",
+        serv_boutique_subtitle: "Comprehensive and personalized experience.",
         serv_boutique_p1_title: "Client Understanding:",
         serv_boutique_p1_desc: "We quickly identify your goals, budget, and preferences to tailor the entire process to you",
         serv_boutique_p2_title: "Property Search:",
@@ -117,12 +165,34 @@ const translations = {
         serv_boutique_p7_title: "Architecture & Interior Design Studio (Optional):",
         serv_boutique_p7_desc: "We manage the renovation with top-tier partners: Management of Responsible Declaration, prestigious architecture studio, top-level construction company, and interior design studio",
 
+        // Boutique Sub-page
+        boutique_hero_title: "Boutique Services",
+        boutique_hero_subtitle: "Comprehensive and personalized experience to find your ideal home.",
+        boutique_hero_cta_more: "Discover more",
+        boutique_hero_cta_info: "Request Information",
+        boutique_intro: "Our boutique services are designed to accompany you in every step of buying your home in Madrid. We offer a 360º advice that goes beyond simple intermediation.",
+
         // Investors Services
         serv_investors_title: "Additional Services for Investors / Foreigners",
         serv_inv_p1: "We optimize the tax structuring of the investment",
         serv_inv_p2: "We help you open your bank account in Spain",
         serv_inv_p3: "We manage the creation of your company in Spain",
         serv_inv_p4: "Any legal or tax support you need",
+
+        // Investors Sub-page
+        investors_hero_title: "Investors and Foreigners",
+        investors_hero_subtitle: "Comprehensive solutions to optimize your investment and landing in Spain.",
+        investors_hero_cta_view: "View Services",
+        investors_hero_cta_contact: "Contact Us",
+        investors_intro: "We facilitate your arrival and investment in Madrid. We take care of all the bureaucratic and legal procedures so that you only worry about enjoying your investment, with the security of being in expert hands.",
+        investors_f1_title: "Tax Optimization",
+        investors_f1_desc: "We analyze your personal and wealth situation to optimize the tax structuring of your real estate investment in Spain. We design the most efficient strategy to ensure regulatory compliance and maximize your net profitability.",
+        investors_f2_title: "Bank Account Opening",
+        investors_f2_desc: "We help you open your bank account in Spain in an agile way, connecting you with top-tier entities that understand the needs of international investors, facilitating the operation of purchase and subsequent management.",
+        investors_f3_title: "Company Creation",
+        investors_f3_desc: "If your investment profile requires it, we manage the constitution of your company in Spain (SL, patrimonial, etc.) by taking care of all the registration, notary and tax procedures so that you can operate from the first day.",
+        investors_f4_title: "Legal Support and Golden Visa",
+        investors_f4_desc: "We provide comprehensive legal support during your stay or investment process. We offer complete advice for obtaining the Golden Visa if you are eligible, managing the entire administrative file.",
 
         // Management Services
         serv_management_title: "Rental Management / Asset Management",
@@ -131,11 +201,30 @@ const translations = {
         serv_man_p3: "We select high-quality tenants",
         serv_man_p4: "No agency fee: We only charge a fixed monthly %, which includes full rental management as well as incident management",
 
+        // Management Sub-page
+        management_hero_title: "Rental Management",
+        management_hero_subtitle: "Comprehensive Asset Management for your peace of mind and profitability.",
+        management_hero_cta_how: "How it works",
+        management_hero_cta_start: "Start profiting",
+        management_intro: "We take care of everything so that your investment is truly passive. From tenant selection to daily maintenance, we manage your asset as if it were ours.",
+        management_f1_title: "No conflicts of interest",
+        management_f1_desc: "We only work for you, the owner. Unlike other agencies, our interests are 100% aligned with yours to maximize the value of your asset in the long term, not a quick commission.",
+        management_f2_title: "Comprehensive and transparent management",
+        management_f2_desc: "We take care of collections, repairs, incidents and daily relationship with the tenant. You maintain full visibility through transparent reports, but without the management headaches.",
+        management_f3_title: "We select high-quality tenants",
+        management_f3_desc: "We perform exhaustive filtering (financial scoring, references) to find solvent and reliable tenants. Your peace of mind and the care of your property depend on who lives in your house.",
+        management_f4_title: "Maximized Profitability",
+        management_f4_desc: "We periodically review rents according to the market and optimize operating costs to ensure that you are obtaining the maximum possible return from your investment at all times.",
+        management_highlight_title: "No agency fee",
+        management_highlight_desc: "We only charge a fixed monthly %, which includes full rental management as well as management of potential incidents. No surprises or hidden costs.",
+        management_highlight_cta: "Contact Now",
+
         why_title: "Why Choose Us?",
         why_1: "Boutique attention, working exclusively for you",
         why_2: "Deep knowledge of Madrid neighborhoods",
         why_3: "Multidisciplinary team to cover every need",
         why_4: "Comprehensive legal services",
+        why_summary: "At Quiti Properties, we accompany you from start to finish: from searching for the property to the full renovation with our partner architecture studios and the key handover. A simple, high-quality process fully aligned with each client's needs.",
 
         team_title: "The Team",
         team_subtitle: "Experts united by passion for real estate and design.",
@@ -150,11 +239,17 @@ const translations = {
         team_desc_3: "We have a proactive team, with local knowledge and global vision, that understands the needs of national and international clients and turns every project into something truly special.",
 
         contact_title: "Contact Us",
-        contact_name_placeholder: "Name",
-        contact_email_placeholder: "Email",
-        contact_phone_placeholder: "Phone",
-        contact_message_placeholder: "Message",
+        contact_name_label: "Name",
+        contact_name_placeholder: "Your full name",
+        contact_email_label: "Email",
+        contact_email_placeholder: "your@email.com",
+        contact_phone_label: "Phone",
+        contact_phone_placeholder: "+34 ...",
+        contact_message_label: "Message",
+        contact_message_placeholder: "How can we help you?",
         contact_submit: "Send me this info",
+        contact_headline: "Let's talk about your future home",
+        contact_address: "Núñez de Balboa 47. Madrid, Spain",
 
         legal_text: "© 2025 Quiti Properties. All rights reserved. Privacy Policy."
     }

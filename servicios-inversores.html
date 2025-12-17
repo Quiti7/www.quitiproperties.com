@@ -120,22 +120,24 @@
             </div>
 
             <div class="nav-menu" id="navMenu">
-                <a href="index.html" class="nav-link">Inicio</a>
+                <a href="index.html" class="nav-link" data-i18n="nav_home">Inicio</a>
 
                 <div class="dropdown">
-                    <a href="index.html#services" class="nav-link" style="color: var(--color-secondary);">Servicios <i
-                            class="fas fa-chevron-down" style="font-size: 0.7em; margin-left: 5px;"></i></a>
+                    <a href="index.html#services" class="nav-link" style="color: var(--color-secondary);"><span
+                            data-i18n="nav_services">Servicios</span> <i class="fas fa-chevron-down"
+                            style="font-size: 0.7em; margin-left: 5px;"></i></a>
                     <div class="dropdown-content">
-                        <a href="servicios-boutique.html">Servicios Boutique</a>
+                        <a href="servicios-boutique.html" data-i18n="nav_serv_boutique">Servicios Boutique</a>
                         <a href="servicios-inversores.html"
-                            style="background-color: var(--color-bg-light); color: var(--color-secondary);">Inversores /
+                            style="background-color: var(--color-bg-light); color: var(--color-secondary);"
+                            data-i18n="nav_serv_investors">Inversores /
                             Extranjeros</a>
-                        <a href="gestion-alquileres.html">Gestión de Activos</a>
+                        <a href="gestion-alquileres.html" data-i18n="nav_serv_management">Gestión de Activos</a>
                     </div>
                 </div>
 
-                <a href="index.html#team" class="nav-link">Equipo</a>
-                <a href="index.html#contact" class="nav-link">Contacto</a>
+                <a href="index.html#team" class="nav-link" data-i18n="nav_team">Equipo</a>
+                <a href="index.html#contact" class="nav-link" data-i18n="nav_contact">Contacto</a>
 
                 <div class="lang-switch">
                     <button class="lang-btn active" data-lang="es">ES</button>
@@ -150,13 +152,14 @@
     <section class="hero hero-inner" style="background-image: url('assets/images/pasillo2.png');">
         <div class="hero-bg-overlay"></div>
         <div class="container hero-content" data-aos="fade-up">
-            <h1 style="margin-bottom: 1rem;">Inversores y Extranjeros</h1>
-            <p style="font-size: 1.3rem; max-width: 700px; margin: 0 auto 2rem; color: #eee;">
+            <h1 style="margin-bottom: 1rem;" data-i18n="investors_hero_title">Inversores y Extranjeros</h1>
+            <p style="font-size: 1.3rem; max-width: 700px; margin: 0 auto 2rem; color: #eee;"
+                data-i18n="investors_hero_subtitle">
                 Soluciones integrales para optimizar tu inversión y aterrizaje en España.
             </p>
             <div class="cta-group">
-                <a href="#details" class="btn btn-secondary">Ver Servicios</a>
-                <a href="#contact" class="btn btn-primary">Contáctanos</a>
+                <a href="#details" class="btn btn-secondary" data-i18n="investors_hero_cta_view">Ver Servicios</a>
+                <a href="#contact" class="btn btn-primary" data-i18n="investors_hero_cta_contact">Contáctanos</a>
             </div>
         </div>
     </section>
@@ -165,7 +168,7 @@
     <section id="details" class="service-content-section">
         <div class="container">
 
-            <p class="service-intro" data-aos="fade-up">
+            <p class="service-intro" data-aos="fade-up" data-i18n="investors_intro">
                 Facilitamos tu llegada e inversión en Madrid. Nos encargamos de todos los trámites burocráticos y
                 legales para que tú solo te preocupes de disfrutar de tu inversión, con la seguridad de estar en manos
                 expertas.
@@ -175,8 +178,9 @@
                 <!-- 1. Optimización fiscal -->
                 <div class="feature-item" data-aos="fade-up">
                     <div class="feature-icon"><i class="fas fa-balance-scale"></i></div>
-                    <h3>Optimización Fiscal</h3>
-                    <p class="feature-desc">Analizamos tu situación personal y patrimonial para optimizar la
+                    <h3 data-i18n="investors_f1_title">Optimización Fiscal</h3>
+                    <p class="feature-desc" data-i18n="investors_f1_desc">Analizamos tu situación personal y patrimonial
+                        para optimizar la
                         estructuración fiscal de tu inversión inmobiliaria en España. Diseñamos la estrategia más
                         eficiente para asegurar el cumplimiento normativo y maximizar tu rentabilidad neta.</p>
                 </div>
@@ -184,8 +188,9 @@
                 <!-- 2. Cuenta Bancaria -->
                 <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
                     <div class="feature-icon"><i class="fas fa-university"></i></div>
-                    <h3>Apertura de Cuenta Bancaria</h3>
-                    <p class="feature-desc">Te ayudamos a abrir tu cuenta bancaria en España de forma ágil, conectándote
+                    <h3 data-i18n="investors_f2_title">Apertura de Cuenta Bancaria</h3>
+                    <p class="feature-desc" data-i18n="investors_f2_desc">Te ayudamos a abrir tu cuenta bancaria en
+                        España de forma ágil, conectándote
                         con entidades de primer nivel que entienden las necesidades de inversores internacionales,
                         facilitando la operativa de compra y gestión posterior.</p>
                 </div>
@@ -193,8 +198,9 @@
                 <!-- 3. Creación de Sociedad -->
                 <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
                     <div class="feature-icon"><i class="fas fa-building"></i></div>
-                    <h3>Creación de Sociedad</h3>
-                    <p class="feature-desc">Si tu perfil de inversión lo requiere, gestionamos la constitución de tu
+                    <h3 data-i18n="investors_f3_title">Creación de Sociedad</h3>
+                    <p class="feature-desc" data-i18n="investors_f3_desc">Si tu perfil de inversión lo requiere,
+                        gestionamos la constitución de tu
                         sociedad en España (SL, patrimonial, etc.) encargándonos de todos los trámites registrales,
                         notariales y fiscales para que puedas operar desde el primer día.</p>
                 </div>
@@ -202,8 +208,9 @@
                 <!-- 4. Apoyo Legal -->
                 <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
                     <div class="feature-icon"><i class="fas fa-passport"></i></div>
-                    <h3>Apoyo Legal y Golden Visa</h3>
-                    <p class="feature-desc">Brindamos soporte jurídico integral durante tu estancia o proceso de
+                    <h3 data-i18n="investors_f4_title">Apoyo Legal y Golden Visa</h3>
+                    <p class="feature-desc" data-i18n="investors_f4_desc">Brindamos soporte jurídico integral durante tu
+                        estancia o proceso de
                         inversión. Ofrecemos asesoramiento completo para la obtención de la Golden Visa si eres
                         elegible, gestionando todo el expediente administrativo.</p>
                 </div>
@@ -251,7 +258,7 @@
                 <!-- Left Side: Brand & Info -->
                 <div class="contact-brand-col">
                     <img src="assets/images/logo.png" alt="Quiti Properties" class="contact-logo">
-                    <h3 class="contact-headline">Hablemos de tu futuro hogar</h3>
+                    <h3 class="contact-headline" data-i18n="contact_headline">Hablemos de tu futuro hogar</h3>
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-phone-alt"></i>
@@ -263,7 +270,7 @@
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Núñez de Balboa 47. Madrid, España</span>
+                            <span data-i18n="contact_address">Núñez de Balboa 47. Madrid, España</span>
                         </div>
                     </div>
                 </div>
@@ -278,19 +285,22 @@
 
                         <div class="form-group">
                             <label for="name" data-i18n="contact_name_label">Nombre</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" data-i18n-placeholder="contact_name_placeholder"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="email" data-i18n="contact_email_label">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email"
+                                data-i18n-placeholder="contact_email_placeholder" required>
                         </div>
                         <div class="form-group">
                             <label for="phone" data-i18n="contact_phone_label">Teléfono</label>
-                            <input type="tel" id="phone" name="phone">
+                            <input type="tel" id="phone" name="phone" data-i18n-placeholder="contact_phone_placeholder">
                         </div>
                         <div class="form-group">
                             <label for="message" data-i18n="contact_message_label">Mensaje</label>
-                            <textarea id="message" name="message" rows="4"></textarea>
+                            <textarea id="message" name="message" data-i18n-placeholder="contact_message_placeholder"
+                                rows="4"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block" data-i18n="contact_submit">Enviar
                             Mensaje</button>

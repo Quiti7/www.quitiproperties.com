@@ -276,7 +276,7 @@
                         de nuestros clientes</p>
                 </div>
             </div>
-            <p class="why-summary">
+            <p class="why-summary" data-i18n="why_summary">
                 En Quiti Properties te acompañamos de principio a fin: desde la búsqueda de la vivienda hasta la reforma
                 integral con nuestros estudios de arquitectura partners y la entrega de llaves. Un proceso sencillo, de
                 máxima calidad y totalmente alineado con las necesidades de cada cliente
@@ -291,7 +291,7 @@
                 <!-- Left Side: Brand & Info -->
                 <div class="contact-brand-col">
                     <img src="assets/images/logo.png" alt="Quiti Properties" class="contact-logo">
-                    <h3 class="contact-headline">Hablemos de tu futuro hogar</h3>
+                    <h3 class="contact-headline" data-i18n="contact_headline">Hablemos de tu futuro hogar</h3>
                     <div class="contact-details">
                         <div class="contact-item">
                             <i class="fas fa-phone-alt"></i>
@@ -303,7 +303,7 @@
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Núñez de Balboa 47. Madrid, España</span>
+                            <span data-i18n="contact_address">Núñez de Balboa 47. Madrid, España</span>
                         </div>
                     </div>
                 </div>
@@ -318,19 +318,22 @@
 
                         <div class="form-group">
                             <label for="name" data-i18n="contact_name_label">Nombre</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" data-i18n-placeholder="contact_name_placeholder"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="email" data-i18n="contact_email_label">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email"
+                                data-i18n-placeholder="contact_email_placeholder" required>
                         </div>
                         <div class="form-group">
                             <label for="phone" data-i18n="contact_phone_label">Teléfono</label>
-                            <input type="tel" id="phone" name="phone">
+                            <input type="tel" id="phone" name="phone" data-i18n-placeholder="contact_phone_placeholder">
                         </div>
                         <div class="form-group">
                             <label for="message" data-i18n="contact_message_label">Mensaje</label>
-                            <textarea id="message" name="message" rows="4"></textarea>
+                            <textarea id="message" name="message" data-i18n-placeholder="contact_message_placeholder"
+                                rows="4"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block" data-i18n="contact_submit">Enviar
                             Mensaje</button>
