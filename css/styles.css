@@ -1029,13 +1029,23 @@ ul {
         gap: 1rem;
     }
 
-    /* Services refinements */
+    /* Services refinements - Increasing gaps and adding margins for Safari/Mobile visibility */
     .service-details-grid li {
-        gap: 25px;
+        gap: 35px;
+    }
+
+    .service-details-grid .li-icon {
+        margin-right: 5px;
+        /* Extra breathing room */
     }
 
     .service-details-simple li {
-        gap: 20px;
+        gap: 25px;
+    }
+
+    .service-details-simple .li-icon-simple {
+        margin-right: 10px;
+        /* Stronger separation */
     }
 
     .why-item {
