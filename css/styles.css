@@ -1029,6 +1029,15 @@ ul {
         gap: 1rem;
     }
 
+    /* Services refinements */
+    .service-details-grid li {
+        gap: 25px;
+    }
+
+    .service-details-simple li {
+        gap: 20px;
+    }
+
     .why-item {
         padding: 2rem;
     }
@@ -1057,6 +1066,16 @@ ul {
 
     .contact-form-col {
         padding: 3rem 1.5rem;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    .contact-item i {
+        margin-bottom: 0.5rem;
     }
 }
 

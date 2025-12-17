@@ -13,6 +13,7 @@ const translations = {
 
         hero_headline: "",
         hero_subheadline: "El primer property shopper que encuentra tu hogar y lo transforma contigo, de principio a fin: selección del activo, arquitectura de primer nivel, reforma y diseño integral, y un acompañamiento legal y estratégico que asegura siempre las mejores condiciones",
+        hero_subheadline_mobile: "El primer property shopper que encuentra tu hogar y lo transforma contigo, de principio a fin: selección del activo, arquitectura de primer nivel, reforma y diseño integral",
         hero_cta_primary: "Contáctanos ahora",
         hero_cta_secondary: "Nuestros servicios",
 
@@ -91,6 +92,7 @@ const translations = {
 
         hero_headline: "",
         hero_subheadline: "The first property shopper to find your home and transform it with you, from start to finish: curated asset selection, top-tier architecture, full renovation and design, and strategic legal guidance to consistently secure the best terms",
+        hero_subheadline_mobile: "The first property shopper to find your home and transform it with you, from start to finish: curated asset selection, top-tier architecture, full renovation and design",
         hero_cta_primary: "Contact us now",
         hero_cta_secondary: "Our services",
 
@@ -170,9 +172,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update basic text elements
         const elements = document.querySelectorAll('[data-i18n]');
+        const isMobile = window.innerWidth <= 768;
+
         elements.forEach(el => {
             const key = el.getAttribute('data-i18n');
-            if (translations[lang][key]) {
+            const mobileKey = `${key}_mobile`;
+
+            if (isMobile && translations[lang][mobileKey]) {
+                el.innerText = translations[lang][mobileKey];
+            } else if (translations[lang][key]) {
                 el.innerText = translations[lang][key];
             }
         });
@@ -207,6 +215,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize content
     updateContent(currentLang);
+
+    // Update content on resize to handle mobile/desktop text swaps
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            updateContent(currentLang);
+        }, 250);
+    });
 
 
     // --- Mobile Menu Toggle ---
