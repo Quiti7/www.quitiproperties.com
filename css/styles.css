@@ -296,6 +296,11 @@ ul {
     /* Offset for fixed header */
 }
 
+.hero-inner {
+    height: 60vh;
+    min-height: 500px;
+}
+
 /* Parallax Section Generic */
 .parallax-section {
     background-attachment: fixed;
@@ -512,7 +517,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-    align-items: center;
+    /* align-items: center; */
     /* Center align for improved aesthetic in centered card */
 }
 
@@ -831,9 +836,31 @@ ul {
     /* filter: brightness(0) invert(1); */
 }
 
+/* Navbar when menu is active on mobile */
+.navbar.menu-active {
+    background-color: var(--color-white);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.menu-active .nav-toggle,
+.navbar.menu-active .logo {
+    color: var(--color-primary);
+}
+
 /* Shrink logo on scroll */
 .navbar.scrolled .nav-logo {
     height: 50px;
+}
+
+/* Base Responsive adjustments */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
 }
 
 /* Responsive */
@@ -860,6 +887,27 @@ ul {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .section-padding {
+        padding: 60px 0;
+        min-height: auto;
+        /* Remove 100vh on mobile */
+    }
+
+    .parallax-section {
+        min-height: auto;
+        /* Remove 100vh on mobile */
+        padding: 60px 20px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .nav-logo {
+        height: 80px;
+    }
+
     .nav-menu {
         position: absolute;
         top: 100%;
@@ -870,6 +918,70 @@ ul {
         padding: 2rem;
         display: none;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        gap: 0;
+        /* Control spacing via links */
+    }
+
+    .nav-link {
+        color: var(--color-primary);
+        text-shadow: none;
+        padding: 12px 0;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-link:last-child {
+        border-bottom: none;
+    }
+
+    .dropdown {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        position: static;
+        display: block;
+        /* Always open on mobile */
+        width: 100%;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        background: rgba(0, 0, 0, 0.03);
+    }
+
+    .dropdown-content a {
+        padding: 12px 0;
+        font-size: 1rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+    }
+
+    /* Remove hover display logic for mobile as it's static */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .lang-switch {
+        justify-content: center;
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        width: 100%;
+    }
+
+    .lang-btn {
+        color: #666;
+    }
+
+    .navbar.scrolled .lang-btn,
+    .menu-active .lang-btn {
+        color: #999;
+    }
+
+    .lang-btn.active {
+        color: var(--color-primary);
     }
 
     .nav-menu.active {
@@ -881,7 +993,7 @@ ul {
     }
 
     .hero h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .contact-container {
@@ -890,6 +1002,7 @@ ul {
 
     .cta-group {
         flex-direction: column;
+        gap: 1rem;
     }
 
     .btn {
@@ -900,11 +1013,50 @@ ul {
     .parallax-section,
     .hero {
         background-attachment: scroll;
+        height: auto !important;
+        min-height: 100vh;
+        /* Default for full heroes */
         /* Disable parallax on mobile for performance */
+    }
+
+    .hero-inner {
+        min-height: 400px !important;
+        padding: 120px 0 60px;
     }
 
     .why-grid {
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .why-item {
+        padding: 2rem;
+    }
+
+    .team-content-box {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .team-roles-grid {
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .team-role-item {
+        min-width: 140px;
+        padding: 1rem;
+    }
+
+    .team-role-item p {
+        font-size: 0.85rem;
+    }
+
+    .contact-brand-col {
+        padding: 3rem 1.5rem;
+    }
+
+    .contact-form-col {
+        padding: 3rem 1.5rem;
     }
 }
 

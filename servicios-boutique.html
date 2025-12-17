@@ -175,7 +175,7 @@
     </nav>
 
     <!-- Specific Hero Section -->
-    <section class="hero" style="background-image: url('assets/images/portada.jpg'); height: 60vh; min-height: 500px;">
+    <section class="hero hero-inner" style="background-image: url('assets/images/portada.jpg');">
         <div class="hero-bg-overlay"></div>
         <div class="container hero-content" data-aos="fade-up">
             <h1 style="margin-bottom: 1rem;">Servicios Boutique</h1>
@@ -381,19 +381,6 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="js/main.js"></script>
 
-    <!-- Mobile Menu Fix for this separate page -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const toggle = document.getElementById('navToggle');
-            const menu = document.getElementById('navMenu');
-
-            if (toggle && menu) {
-                toggle.addEventListener('click', () => {
-                    menu.classList.toggle('active');
-                });
-            }
-        });
-    </script>
 </body>
 
 </html>

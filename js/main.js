@@ -214,17 +214,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const navMenu = document.getElementById('navMenu');
 
     if (navToggle && navMenu) {
+        const navbar = document.querySelector('.navbar');
+        const logo = document.querySelector('.nav-logo');
+
         navToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active');
+            navbar.classList.toggle('menu-active');
 
             // Toggle icon from bars to times
             const icon = navToggle.querySelector('i');
             if (navMenu.classList.contains('active')) {
                 icon.classList.remove('fa-bars');
                 icon.classList.add('fa-times');
+                if (logo) logo.src = 'assets/images/logonav.png';
             } else {
                 icon.classList.remove('fa-times');
                 icon.classList.add('fa-bars');
+                if (window.scrollY <= 50) {
+                    if (logo) logo.src = 'assets/images/logoblanco.png';
+                }
             }
         });
 
@@ -232,9 +240,13 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', () => {
                 navMenu.classList.remove('active');
+                navbar.classList.remove('menu-active');
                 const icon = navToggle.querySelector('i');
                 icon.classList.remove('fa-times');
                 icon.classList.add('fa-bars');
+                if (window.scrollY <= 50) {
+                    if (logo) logo.src = 'assets/images/logoblanco.png';
+                }
             });
         });
     }
