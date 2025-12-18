@@ -1010,7 +1010,15 @@ ul {
     .cta-group {
         flex-direction: column;
         align-items: center;
-        gap: 1.2rem;
+        gap: 0;
+    }
+
+    .cta-group .btn {
+        margin-bottom: 1.2rem;
+    }
+
+    .cta-group .btn:last-child {
+        margin-bottom: 0;
     }
 
     .btn {
