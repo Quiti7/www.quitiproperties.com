@@ -6,7 +6,7 @@ const translations = {
         nav_contact: "Contáctanos",
 
         // Navigation Dropdown
-        nav_serv_boutique: "Servicios Boutique",
+        nav_serv_boutique: "Property shopper integral",
         nav_serv_investors: "Para Inversores",
         nav_serv_management: "Gestión de Activos",
 
@@ -18,7 +18,8 @@ const translations = {
         services_title: "Servicios que ofrece Quiti Properties",
 
         // Boutique Services
-        serv_boutique_title: "Servicios Boutique",
+        serv_boutique_title: "Property shopper integral",
+        serv_boutique_subtitle: "Servicio integral y personalizado",
         serv_boutique_p1_title: "Entendimiento del cliente:",
         serv_boutique_p1_desc: "Identificamos rápido tus objetivos, presupuesto y preferencias para ajustar todo el proceso a ti",
         serv_boutique_p2_title: "Búsqueda de vivienda:",
@@ -28,11 +29,11 @@ const translations = {
         serv_boutique_p4_title: "Negociación + Due Diligence:",
         serv_boutique_p4_desc: "Negociamos el mejor precio y condiciones, apoyados por una due diligence completa. Conocemos cada barrio y sabemos a qué precio debe cerrarse cada vivienda en Madrid",
         serv_boutique_p5_title: "Financiación:",
-        serv_boutique_p5_desc: "Te conectamos con bancos colaboradores para conseguir la hipoteca que mejor encaje contigo y en las mejores condiciones",
+        serv_boutique_p5_desc: "Nuestra relación con dos de las principales entidades financieras especializadas en tasación nos permite conectar a nuestros clientes con las mejores alternativas disponibles en el mercado",
         serv_boutique_p6_title: "Contratos y cierre:",
         serv_boutique_p6_desc: "Nuestros abogados revisan y negocian toda la documentación legal y te acompañamos hasta la firma final",
-        serv_boutique_p7_title: "Reforma (opcional):",
-        serv_boutique_p7_desc: "Te gestionamos la reforma con partners de primer nivel: Gestión de la Declaración Responsable, estudio de arquitectura, constructora y estudio de interiorismo",
+        serv_boutique_p7_title: "Estudio de arquitectura e interiorismo:",
+        serv_boutique_p7_desc: "Apoyados en partnerships estratégicos con estudios de arquitectura e interiorismo de primer nivel y constructoras de referencia, en Quiti Properties lideramos la reforma de tu vivienda, asegurando máxima calidad y un proceso eficiente, transparente y exitoso",
 
         // Investors Services
         serv_investors_title: "Servicios para inversores / extranjeros",
@@ -76,7 +77,7 @@ const translations = {
         nav_contact: "Contact Us",
 
         // Navigation Dropdown
-        nav_serv_boutique: "Boutique Services",
+        nav_serv_boutique: "Comprehensive Property Shopper",
         nav_serv_investors: "For Investors",
         nav_serv_management: "Asset Management",
 
@@ -88,7 +89,8 @@ const translations = {
         services_title: "Services offered by Quiti Properties",
 
         // Boutique Services (English translations approximated based on structure)
-        serv_boutique_title: "Boutique Services",
+        serv_boutique_title: "Comprehensive Property Shopper",
+        serv_boutique_subtitle: "Comprehensive and personalized service",
         serv_boutique_p1_title: "Client Understanding:",
         serv_boutique_p1_desc: "We quickly identify your goals, budget, and preferences to tailor the entire process to you",
         serv_boutique_p2_title: "Property Search:",
@@ -98,11 +100,11 @@ const translations = {
         serv_boutique_p4_title: "Negotiation + Due Diligence:",
         serv_boutique_p4_desc: "We negotiate the best price and terms, supported by complete due diligence. We know every neighborhood and the closing price for every home in Madrid",
         serv_boutique_p5_title: "Financing:",
-        serv_boutique_p5_desc: "We connect you with partner banks to get the mortgage that best fits you and at the best conditions",
+        serv_boutique_p5_desc: "Our relationship with two of the leading financial institutions specialized in valuation allows us to connect our clients with the best alternatives available in the market",
         serv_boutique_p6_title: "Contracts and Closing:",
         serv_boutique_p6_desc: "Our lawyers review and negotiate all legal documentation and we accompany you until the final signature",
-        serv_boutique_p7_title: "Renovation (Optional):",
-        serv_boutique_p7_desc: "We manage the renovation with top-tier partners: Management of Responsible Declaration, prestigious architecture studio, top-level construction company, and interior design studio",
+        serv_boutique_p7_title: "Architecture and Interior Design Studio:",
+        serv_boutique_p7_desc: "Backed by strategic partnerships with top-tier architecture and interior design studios, as well as leading construction firms, Quiti Properties leads the renovation of your home, ensuring the highest quality and a process that is efficient, transparent, and successful",
 
         // Investors Services
         serv_investors_title: "Additional Services for Investors / Foreigners",

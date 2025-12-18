@@ -352,6 +352,13 @@ ul {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.cta-group {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
 /* Hero Subheader specialized font */
 .hero-subheader {
     font-family: 'Playfair Display', serif;
@@ -1002,7 +1009,8 @@ ul {
 
     .cta-group {
         flex-direction: column;
-        gap: 1rem;
+        align-items: center;
+        gap: 1.2rem;
     }
 
     .btn {
