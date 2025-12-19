@@ -7,16 +7,16 @@ const translations = {
         nav_contact: "Contáctanos",
 
         // Navigation Dropdown
-        nav_serv_boutique: "Servicios Boutique",
+        nav_serv_boutique: "Property shopper integral",
         nav_serv_investors: "Para Inversores",
         nav_serv_management: "Gestión de Activos",
 
         // Boutique Sub-page
-        boutique_hero_title: "Servicios Boutique",
+        boutique_hero_title: "Property shopper integral",
         boutique_hero_subtitle: "Experiencia integral y personalizada para encontrar tu hogar ideal.",
         boutique_hero_cta_more: "Descubre más",
         boutique_hero_cta_info: "Solicitar Información",
-        boutique_intro: "Nuestros servicios boutique están diseñados para acompañarte en cada paso de la compra de tu vivienda en Madrid. Ofrecemos un asesoramiento 360º que va más allá de la simple intermediación.",
+        boutique_intro: "Nuestros servicios están diseñados para acompañarte en cada paso de la compra de tu vivienda en Madrid. Ofrecemos un asesoramiento 360º que va más allá de la simple intermediación.",
 
         // Investors Sub-page
         investors_hero_title: "Inversores y Extranjeros",
@@ -60,7 +60,7 @@ const translations = {
         services_title: "Servicios que ofrece Quiti Properties",
 
         // Boutique Services
-        serv_boutique_title: "Servicios Boutique",
+        serv_boutique_title: "Property shopper integral",
         serv_boutique_p1_title: "Entendimiento del cliente:",
         serv_boutique_p1_desc: "Identificamos rápido tus objetivos, presupuesto y preferencias para ajustar todo el proceso a ti",
         serv_boutique_p2_title: "Búsqueda de vivienda:",
@@ -70,13 +70,13 @@ const translations = {
         serv_boutique_p4_title: "Negociación + Due Diligence:",
         serv_boutique_p4_desc: "Negociamos el mejor precio y condiciones, apoyados por una due diligence completa. Conocemos cada barrio y sabemos a qué precio debe cerrarse cada vivienda en Madrid",
         serv_boutique_tasacion_title: "Tasación:",
-        serv_boutique_tasacion_desc: "Nuestra relación con una de las tasadoras españolas de referencia nos permite maximizar el resultado de cara a obtener la mejor financiación",
+        serv_boutique_tasacion_desc: "Maximizar resultado para financiación.",
         serv_boutique_p5_title: "Financiación:",
-        serv_boutique_p5_desc: "Te conectamos con bancos colaboradores para conseguir la hipoteca que mejor encaje contigo y en las mejores condiciones",
+        serv_boutique_p5_desc: "Nuestra relación con dos de las principales entidades financieras especializadas en tasación nos permite conectar a nuestros clientes con las mejores alternativas disponibles en el mercado",
         serv_boutique_p6_title: "Contratos y cierre:",
         serv_boutique_p6_desc: "Nuestros abogados revisan y negocian toda la documentación legal y te acompañamos hasta la firma final",
-        serv_boutique_p7_title: "Estudio de arquitectura e interiorismo (opcional):",
-        serv_boutique_p7_desc: "Te gestionamos la reforma con partners de primer nivel: Gestión de la Declaración Responsable, estudio de arquitectura, constructora y estudio de interiorismo",
+        serv_boutique_p7_title: "Estudio de arquitectura e interiorismo:",
+        serv_boutique_p7_desc: "Apoyados en partnerships estratégicos con estudios de arquitectura e interiorismo de primer nivel y constructoras de referencia, en Quiti Properties lideramos la reforma de tu vivienda, asegurando máxima calidad y un proceso eficiente, transparente y exitoso",
 
         // Investors Services
         serv_investors_title: "Servicios para inversores / extranjeros",
@@ -93,7 +93,7 @@ const translations = {
         serv_man_p4: "Sin mes de agencia: Solo cobramos un % mensual fijo, que incluye la gestión completa del alquiler así como la gestión de las posibles incidencias",
 
         why_title: "¿Por qué elegirnos?",
-        why_1: "Atención boutique, solo trabajamos por y para ti",
+        why_1: "Atención personalizada, solo trabajamos por y para ti",
         why_2: "Conocimiento profundo de barrios en Madrid",
         why_3: "Equipo multidisciplinar para cubrir todas las necesidades de nuestros clientes",
         why_4: "Servicios legales integrales",
@@ -107,7 +107,7 @@ const translations = {
         team_role_4: "Abogado fiscalista",
         team_role_5: "Estudio de arquitectura e interiorismo",
         team_role_6: "Constructora",
-        team_desc_1: "Quiti Properties nace de la pasión por ayudar a personas, familias e inversores a encontrar su hogar ideal. Cansados de la opacidad del sector, somos mucho más que un personal shopper: somos tu compañero de viaje, con un servicio boutique pensado para que la compra de tu vivienda sea una experiencia única y memorable.",
+        team_desc_1: "Quiti Properties nace de la pasión por ayudar a personas, familias e inversores a encontrar su hogar ideal. Cansados de la opacidad del sector, somos mucho más que un personal shopper: somos tu compañero de viaje, con un servicio integral pensado para que la compra de tu vivienda sea una experiencia única y memorable.",
         team_desc_2: "Nuestra experiencia inmobiliaria en Madrid nos permite ofrecer un servicio end-to-end totalmente transparente, diseñado para que cada paso —comprar, reformar, alquilar, gestionar tu patrimonio o acompañarte en cualquier necesidad legal y fiscal— sea fluido y sin fricciones.",
         team_desc_3: "Contamos con un equipo proactivo, con conocimiento local y visión global, que entiende las necesidades de clientes nacionales e internacionales y convierte cada proyecto en algo verdaderamente especial.",
 
@@ -133,7 +133,7 @@ const translations = {
         nav_contact: "Contact Us",
 
         // Navigation Dropdown
-        nav_serv_boutique: "Boutique Services",
+        nav_serv_boutique: "Property shopper integral",
         nav_serv_investors: "For Investors",
         nav_serv_management: "Asset Management",
 
@@ -146,7 +146,7 @@ const translations = {
         services_title: "Services offered by Quiti Properties",
 
         // Boutique Services (Home page cards)
-        serv_boutique_title: "Boutique Services",
+        serv_boutique_title: "Property shopper integral",
         serv_boutique_subtitle: "Comprehensive and personalized experience.",
         serv_boutique_p1_title: "Client Understanding:",
         serv_boutique_p1_desc: "We quickly identify your goals, budget, and preferences to tailor the entire process to you",
@@ -157,20 +157,20 @@ const translations = {
         serv_boutique_p4_title: "Negotiation + Due Diligence:",
         serv_boutique_p4_desc: "We negotiate the best price and terms, supported by complete due diligence. We know every neighborhood and the closing price for every home in Madrid",
         serv_boutique_tasacion_title: "Appraisal:",
-        serv_boutique_tasacion_desc: "Our relationship with one of the leading Spanish appraisal companies allows us to maximize the result in order to obtain the best financing",
+        serv_boutique_tasacion_desc: "Maximize result for financing.",
         serv_boutique_p5_title: "Financing:",
-        serv_boutique_p5_desc: "We connect you with partner banks to get the mortgage that best fits you and at the best conditions",
+        serv_boutique_p5_desc: "Our relationship with two of the leading financial institutions specialized in valuation allows us to connect our clients with the best alternatives available in the market",
         serv_boutique_p6_title: "Contracts and Closing:",
         serv_boutique_p6_desc: "Our lawyers review and negotiate all legal documentation and we accompany you until the final signature",
-        serv_boutique_p7_title: "Architecture & Interior Design Studio (Optional):",
-        serv_boutique_p7_desc: "We manage the renovation with top-tier partners: Management of Responsible Declaration, prestigious architecture studio, top-level construction company, and interior design studio",
+        serv_boutique_p7_title: "Architecture & Interior Design Studio:",
+        serv_boutique_p7_desc: "Backed by strategic partnerships with top-tier architecture and interior design studios, as well as leading construction firms, Quiti Properties leads the renovation of your home, ensuring the highest quality and a process that is efficient, transparent, and successful",
 
         // Boutique Sub-page
-        boutique_hero_title: "Boutique Services",
+        boutique_hero_title: "Property shopper integral",
         boutique_hero_subtitle: "Comprehensive and personalized experience to find your ideal home.",
         boutique_hero_cta_more: "Discover more",
         boutique_hero_cta_info: "Request Information",
-        boutique_intro: "Our boutique services are designed to accompany you in every step of buying your home in Madrid. We offer a 360º advice that goes beyond simple intermediation.",
+        boutique_intro: "Our services are designed to accompany you in every step of buying your home in Madrid. We offer a 360º advice that goes beyond simple intermediation.",
 
         // Investors Services
         serv_investors_title: "Additional Services for Investors / Foreigners",
@@ -220,7 +220,7 @@ const translations = {
         management_highlight_cta: "Contact Now",
 
         why_title: "Why Choose Us?",
-        why_1: "Boutique attention, working exclusively for you",
+        why_1: "Personalized attention, working exclusively for you",
         why_2: "Deep knowledge of Madrid neighborhoods",
         why_3: "Multidisciplinary team to cover every need",
         why_4: "Comprehensive legal services",
@@ -234,7 +234,7 @@ const translations = {
         team_role_4: "Tax Lawyer",
         team_role_5: "Architecture & Interior Design Studio",
         team_role_6: "Construction Company",
-        team_desc_1: "Quiti Properties was born from the passion to help people, families, and investors find their ideal home. Tired of the sector's opacity, we are much more than a personal shopper: we are your travel companion, with a boutique service designed to make buying your home a unique and memorable experience.",
+        team_desc_1: "Quiti Properties was born from the passion to help people, families, and investors find their ideal home. Tired of the sector's opacity, we are much more than a personal shopper: we are your travel companion, with an end-to-end service designed to make buying your home a unique and memorable experience.",
         team_desc_2: "Our real estate experience in Madrid allows us to offer a totally transparent end-to-end service, designed so that every step —buying, renovating, renting, managing your assets, or accompanying you in any legal and tax need— is fluid and frictionless.",
         team_desc_3: "We have a proactive team, with local knowledge and global vision, that understands the needs of national and international clients and turns every project into something truly special.",
 
@@ -249,7 +249,7 @@ const translations = {
         contact_message_placeholder: "How can we help you?",
         contact_submit: "Send me this info",
         contact_headline: "Let's talk about your future home",
-        contact_address: "Núñez de Balboa 47. Madrid, Spain",
+        contact_address: "Núñez de Balboa 47. Madrid, España",
 
         legal_text: "© 2025 Quiti Properties. All rights reserved. Privacy Policy."
     }

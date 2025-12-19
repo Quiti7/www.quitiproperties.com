@@ -11,7 +11,7 @@ const translations = {
         nav_serv_management: "Gestión de Activos",
 
         hero_headline: "",
-        hero_subheadline: "The first property shopper that finds your home and transforms it end-to-end — with boutique architecture, renovation, and design, plus legal support and expert negotiation to secure the best possible terms",
+        hero_subheadline: "The first property shopper that finds your home and transforms it end-to-end — with architectural excellence, renovation, and design, plus legal support and expert negotiation to secure the best possible terms",
         hero_cta_primary: "Contáctanos ahora",
         hero_cta_secondary: "Nuestros servicios",
 
@@ -50,14 +50,14 @@ const translations = {
         serv_man_p4: "Sin mes de agencia: Solo cobramos un % mensual fijo, que incluye la gestión completa del alquiler así como la gestión de las posibles incidencias",
 
         why_title: "¿Por qué elegirnos?",
-        why_1: "Atención boutique, solo trabajamos por y para ti",
+        why_1: "Atención personalizada, solo trabajamos por y para ti",
         why_2: "Conocimiento profundo de barrios en Madrid",
         why_3: "Negociación y cierre con mejores condiciones",
         why_4: "Servicios legales integrales",
 
         team_title: "The Team / Sobre Nosotros",
         team_subtitle: "Expertos unidos por la pasión inmobiliaria y el diseño",
-        team_desc_1: "Quiti Properties nace de la pasión por ayudar a personas, familias e inversores a encontrar su hogar ideal. Cansados de la opacidad del sector, somos mucho más que un personal shopper: somos tu compañero de viaje, con un servicio boutique pensado para que la compra de tu vivienda sea una experiencia única y memorable.",
+        team_desc_1: "Quiti Properties nace de la pasión por ayudar a personas, familias e inversores a encontrar su hogar ideal. Cansados de la opacidad del sector, somos mucho más que un personal shopper: somos tu compañero de viaje, con un servicio integral pensado para que la compra de tu vivienda sea una experiencia única y memorable.",
         team_desc_2: "Nuestra experiencia inmobiliaria en Madrid nos permite ofrecer un servicio end-to-end totalmente transparente, diseñado para que cada paso —comprar, reformar, alquilar, gestionar tu patrimonio o acompañarte en cualquier necesidad legal y fiscal— sea fluido y sin fricciones.",
         team_desc_3: "Contamos con un equipo proactivo, con conocimiento local y visión global, que entiende las necesidades de clientes nacionales e internacionales y convierte cada proyecto en algo verdaderamente especial.",
 
@@ -77,19 +77,19 @@ const translations = {
         nav_contact: "Contact Us",
 
         // Navigation Dropdown
-        nav_serv_boutique: "Comprehensive Property Shopper",
+        nav_serv_boutique: "Property shopper integral",
         nav_serv_investors: "For Investors",
         nav_serv_management: "Asset Management",
 
         hero_headline: "",
-        hero_subheadline: "The first property shopper that finds your home and transforms it end-to-end — with boutique architecture, renovation, and design, plus legal support and expert negotiation to secure the best possible terms",
+        hero_subheadline: "The first property shopper that finds your home and transforms it end-to-end — with architectural excellence, renovation, and design, plus legal support and expert negotiation to secure the best possible terms",
         hero_cta_primary: "Contact us now",
         hero_cta_secondary: "Our services",
 
         services_title: "Services offered by Quiti Properties",
 
         // Boutique Services (English translations approximated based on structure)
-        serv_boutique_title: "Comprehensive Property Shopper",
+        serv_boutique_title: "Property shopper integral",
         serv_boutique_subtitle: "Comprehensive and personalized service",
         serv_boutique_p1_title: "Client Understanding:",
         serv_boutique_p1_desc: "We quickly identify your goals, budget, and preferences to tailor the entire process to you",
@@ -121,14 +121,14 @@ const translations = {
         serv_man_p4: "No agency fee: We only charge a fixed monthly %, which includes full rental management as well as incident management",
 
         why_title: "Why Choose Us?",
-        why_1: "Boutique attention, working exclusively for you",
+        why_1: "Personalized attention, working exclusively for you",
         why_2: "Deep knowledge of Madrid neighborhoods",
         why_3: "Negotiation and closing with better terms",
         why_4: "Comprehensive legal services",
 
         team_title: "The Team / About Us",
         team_subtitle: "Experts united by passion for real estate and design",
-        team_desc_1: "Quiti Properties was born from the passion to help people, families, and investors find their ideal home. Tired of the sector's opacity, we are much more than a personal shopper: somos tu compañero de viaje, con un servicio boutique pensado para que la compra de tu vivienda sea una experiencia única y memorable",
+        team_desc_1: "Quiti Properties was born from the passion to help people, families, and investors find their ideal home. Tired of the sector's opacity, we are much more than a personal shopper: we are your travel companion, with an end-to-end service designed to make buying your home a unique and memorable experience",
         team_desc_2: "Our real estate experience in Madrid allows us to offer a totally transparent end-to-end service, designed so that every step —buying, renovating, renting, managing your assets, or accompanying you in any legal and tax need— is fluid and frictionless",
         team_desc_3: "We have a proactive team, with local knowledge and global vision, that understands the needs of national and international clients and turns every project into something truly special",
 

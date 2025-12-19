@@ -197,6 +197,12 @@ ul {
     color: var(--color-accent);
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
 .nav-toggle {
     display: none;
     font-size: 1.5rem;
@@ -206,7 +212,8 @@ ul {
     transition: color 0.3s ease;
 }
 
-.navbar.scrolled .nav-toggle {
+.navbar.scrolled .nav-toggle,
+.navbar.menu-active .nav-toggle {
     color: var(--color-primary);
 }
 
@@ -970,33 +977,51 @@ ul {
         display: block;
     }
 
+    .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        order: 2;
+    }
+
+    .nav-toggle {
+        display: block;
+        order: 1;
+        /* Move a bit to the left (by being first in order) */
+    }
+
     .lang-switch {
-        justify-content: center;
-        margin-top: 1.5rem;
-        padding-top: 1rem;
-        border-top: 1px solid rgba(0, 0, 0, 0.05);
-        width: 100%;
+        display: flex;
+        order: 2;
+        /* Put where the menu closed was */
+        margin-top: 0;
+        padding-top: 0;
+        border-top: none;
+        width: auto;
     }
 
     .lang-btn {
-        color: #666;
+        color: var(--color-white);
+        font-size: 0.9rem;
     }
 
     .navbar.scrolled .lang-btn,
     .menu-active .lang-btn {
-        color: #999;
+        color: var(--color-primary);
     }
 
     .lang-btn.active {
+        color: var(--color-white);
+        text-decoration: underline;
+    }
+
+    .navbar.scrolled .lang-btn.active,
+    .menu-active .lang-btn.active {
         color: var(--color-primary);
     }
 
     .nav-menu.active {
         display: flex;
-    }
-
-    .nav-toggle {
-        display: block;
     }
 
     .hero h1 {
